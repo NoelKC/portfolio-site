@@ -1,0 +1,111 @@
+/* color - it said to use spaces instead of commas for rgb ex: rgb( #red #green #blue / alpha%) */
+
+/* COLOR PALETTE 
+all below are from this website: https://venngage-wordpress.s3.amazonaws.com/uploads/2021/07/Deep-Space-Auburn-Indian-Yellow-Fall-Color-Palette.png
+cloudy blue - #335c67 | rgb(51 92 103) 
+pale yellow - #fff3b0 | rgb(255 243 176) 
+dying leaf orange - #e09f3e | rgb(224 159 62) 
+apple - #9e2a2b | rgb(158 42 43) 
+red wood - #540b0e | rgb(84 11 14) 
+
+neon pink - e09 | rgb(238 0 153) is also a great color but doesn't fit the palette 
+ */
+
+/* GLOBAL STYLES  */
+/* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(51 92 103);
+    margin: 0;
+}
+
+/* link styles */
+a {
+    color: rgb(114, 227, 33);
+}
+
+a:hover {
+    color: rgb(84 11 14);
+}
+
+.btn {
+    background: rgb(158 42 43);
+}
+
+/* HOME  */
+.home {
+    background: url(../../portfolio-site/images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px; 
+}
+
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9);
+}
+
+.resume .content-wrapper {
+    background: rgb(95, 198, 101);
+}
+
+/* RESUME */
+.resume header::before {
+    background: url(../../portfolio-site/images/bg-home-office-studio.jpg) center; 
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+
+}
+
+.small-img img {
+    width: 250px;
+}
+
+/* FOOTER */
+footer {
+    background: rgb(224 159 62);
+    color: rgb(255 243 176);
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+    display: inline-block;
+}
+.socials img {
+    width: 32px;
+}
+
+/* TESTING TAGS AND CLASSES 
+h1 {
+    color: rgb(47, 6, 67);
+}
+
+#my-name {
+    color: rgb(2, 122, 36);
+}
+
+.large-text {
+    font-size: 25px;
+}
+
+a {
+    color: rgb(252, 169, 45);
+} */
